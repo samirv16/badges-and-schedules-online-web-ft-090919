@@ -29,6 +29,7 @@ def assign_rooms(speakers)
   
 end
 
+<<<<<<< HEAD
 def printer(names)
   
   batch_badge_creator(names).each do |badge|
@@ -42,6 +43,21 @@ def printer(names)
     puts new_message
   end
   
+=======
+def printer
+  
+  batch_badge_creator.each do |messag|
+    new_messag = messag
+    puts new_messag
+  end
+  new_messag
+  
+  assign_rooms.each do |message|
+    new_message = message
+    puts new_message
+  end
+  new_message
+>>>>>>> 68405583654e5d5de4a7bb5219ed95dcce08bc2b
   
 end
 
